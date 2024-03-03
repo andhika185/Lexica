@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lexica</string>
+    <string name="new_game">Nouvelle partie</string>
+    <string name="restore_game">Reprendre la partie</string>
+    <string name="prefs">Préférences</string>
+    <string name="pref_dict">Lexique</string>
+    <string name="pref_dict_en_US">Anglais (États-Unis)</string>
+    <string name="pref_dict_en_GB">Anglais (Royaume-Uni)</string>
+    <string name="pref_boardSize">Taille de la grille</string>
+    <string name="pref_timeLimit">Durée d\'une partie</string>
+    <string name="pref_sounds">Effets sonores</string>
+    <string name="pref_sounds_summary">Activer ou désactiver les effets sonores</string>
+    <string name="dialog_about_title">À propos de Lexica</string>
+    <string name="dialog_about_content">Toucher l\'écran et déplacer son doigt horizontalement, verticalement et en diagonale pour épeler des mots. Vous avez de 3 à 30 minutes pour trouver un maximum de mots.
+\n
+\nNombre de points :
+\nPour les grilles 4x4, les mots doivent être comporter 3 caractères au moins. Pour les grilles 5x5, les mots doivent être comporter 4 caractères au moins. Les mots de 3-4 lettres rapportent 1 point. Les mots plus longs rapportent plus de points. Les noms propres ne sont pas comptabilisés.
+\n
+\n</string>
+    <string name="menu_rotate_board">Tourner la grille</string>
+    <string name="menu_save_game">Enregistrer la partie</string>
+    <string name="menu_end_game">Terminer la partie</string>
+    <string name="button_ok">OK</string>
+    <string name="about">À propos</string>
+    <string name="show_missed">Montrer les mots manqués</string>
+    <string name="hide_missed">Cacher les mots manqués</string>
+    <string name="show_unique">Montrer les mots uniques</string>
+    <string name="hide_unique">Cacher les mots uniques</string>
+    <string name="view_word"><u>Voir</u></string>
+    <string name="define_word"><u>Définir</u> </string>
+    <string name="words">Mots</string>
+    <string name="found_words">Mots trouvés</string>
+    <string name="missed_words">Mots manqués</string>
+    <string name="total_words">Total des mots :</string>
+    <string name="total_score">Score total :</string>
+    <string name="value_max_percentage">%1$d/%2$d (%3$d%%)</string>
+    <string name="pref_scoreType">Mode de décompte des points</string>
+    <string name="word_length">Longueur des mots</string>
+    <string name="letter_points">Valeur des lettres</string>
+    <string name="score">Score</string>
+    <string name="high_score">Meilleur score </string>
+    <string name="pref_resetScores_summary">Le logiciel garde en mémoire les meilleurs scores. Appuyez ici pour remettre à zéro la mémoire.</string>
+    <string name="pref_resetScores">Remettre à zéro les meilleurs scores</string>
+    <string name="high_scores_reset">Les scores ont été remis à zéro.</string>
+    <string name="reset_scores_prompt">Êtes-vous sûr(e) de vouloir effacer les meilleurs scores ?</string>
+    <string name="pref_breakdown">Montrer le détail des longueurs de mots</string>
+    <string name="pref_breakdown_summary">Pour choisir d\'organiser le décompte des points en fonction de la longueur des mots</string>
+    <string name="pref_definitionProvider">Fournisseur de dictionnaire</string>
+    <string name="pref_definitionProvider_summary">Sélectionnez un fournisseur de définition à utiliser. Si le fournisseur sélectionné n\'est pas installé, une source en ligne comme le Wiktionnaire sera utilisée.</string>
+    <string name="pref_definitionProvider_dialog">Sélectionnez un fournisseur de définitions</string>
+    <string name="pref_dict_de_DE">Allemand</string>
+    <string name="pref_dict_nl">Néerlandais</string>
+    <string name="pref_dict_it">Italien</string>
+    <string name="pref_dict_ca">Catalan</string>
+    <string name="pref_dict_es">Espagnol</string>
+    <string name="lexicon_is_in_beta">Bêta</string>
+    <string name="pref_dict_fa">Persan</string>
+    <string name="pref_dict_fr_FR">Français</string>
+    <string name="pref_dict_ja">Japonais</string>
+    <string name="pref_dict_ru">Russe</string>
+    <string name="pref_dict_hu">Hongrois</string>
+    <string name="pref_hintMode">Mode astuce</string>
+    <string name="pref_hintMode_summary">Afficher le nombre de mots dans lesquels chaque lettre peut être utilisée</string>
+    <string name="tile_count">Nombre de mots</string>
+    <string name="hint_colour">Couleur de tuile</string>
+    <string name="pref_dict_uk">Ukrainien</string>
+    <string name="pref_definitionProvider_dictionaryProvider_online">En ligne</string>
+    <string name="pref_dict_pl">Polonais</string>
+    <string name="pref_dict_pt_BR">Portugais (Brésil)</string>
+    <string name="sort">Trier</string>
+    <string name="theme_high_contrast">Contraste élevé</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="theme_light">Clair</string>
+    <string name="pref_theme_dialog">Sélectionnez un thème</string>
+    <string name="pref_theme">Thème</string>
+    <string name="time">Temps</string>
+    <plurals name="num_minutes">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <string name="whats_new_game_modes_why">Grâce aux contributions de la communauté, les manières dont vous pouvez jouer à Lexica se sont élargies. Ceci rend plus difficile d\'expliquer comment les scores élevés sont enregistrés, et chaque nouvelle fonctionnalité ajoute de la complexité.
+\n
+\nCes modifications permettent de comprendre plus facilement quelle combinaison de préférences aboutit à un score élevé particulier.
+\n
+\nEn prime, les composants internes de Lexica ont été mis à jour pour faciliter son amélioration à l\'avenir en ajoutant une base de données locale pour enregistrer chaque mot trouvé et chaque score élevé.</string>
+    <string name="whats_new_why">Pourquoi \?</string>
+    <string name="whats_new_game_modes_description">Les préférences suivantes ont été remplacées par les modes de jeu : durée, taille du plateau, longueur minimale des mots, type de score et modes d\'indication.
+\n
+\nVous pouvez changer de mode de jeu depuis l\'écran principal ou créer le vôtre. Les scores élevés sont basés sur le mode de jeu et le lexique.</string>
+    <string name="whats_new_game_modes">Modes de jeu</string>
+    <string name="whats_new_continue">Continuer</string>
+    <string name="whats_new_title">Quoi de neuf</string>
+    <string name="error_restoring_game">Impossible de restaurer votre partie</string>
+    <string name="game_mode_legacy_description">Utilisé dans une version antérieure de Lexica</string>
+    <string name="game_mode_legacy">Legacy</string>
+    <string name="game_mode_custom_description">Mode de jeu personnalisé</string>
+    <string name="game_mode_letter_points_description">Marquez plus de points en utilisant des lettres moins courantes</string>
+    <string name="game_mode_letter_points">Points de lettre</string>
+    <string name="game_mode_beginner_description">Utilisez des astuces pour trouver des mots</string>
+    <string name="game_mode_beginner">Débutant·e</string>
+    <string name="game_mode_marathon_description">Essayez de trouver tous les mots, sans aucune pression de temps</string>
+    <string name="game_mode_marathon">Marathon</string>
+    <string name="game_mode_sprint_description">Jeu court pour trouver le plus de mots possible</string>
+    <string name="game_mode_sprint">Sprint</string>
+    <string name="menu_save_game_mode">Enregistrer</string>
+    <string name="menu_new_game_mode">Nouveau</string>
+    <string name="input_game_mode_minutes_description">Limite de temps en minutes</string>
+    <string name="input_game_mode_name_description">Pour choisir le mode de jeu / enregistrer des scores élevés</string>
+    <string name="input_game_mode_name_hint">Nom</string>
+    <plurals name="max_score_points_suffix">
+        <item quantity="one">/ %d point</item>
+        <item quantity="other">/ %d points</item>
+    </plurals>
+    <plurals name="num_found_words_out_of_total">
+        <item quantity="one">%d / %d mot</item>
+        <item quantity="other">%d / %d mots</item>
+    </plurals>
+    <string name="menu_view_found_words">Voir les mots trouvés</string>
+    <string name="delete_custom_game_mode">Supprimer le mode de jeu personnalisé « %1$s » \? Tous les meilleurs scores seront perdus.</string>
+    <string name="high_scores">Meilleurs scores</string>
+    <string name="button_cancel">Annuler</string>
+    <string name="button_delete">Supprimer</string>
+</resources>

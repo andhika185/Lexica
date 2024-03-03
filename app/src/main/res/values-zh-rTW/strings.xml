@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="app_name">Lexica</string>
+
+    <string name="new_game">新遊戲</string>
+    <string name="restore_game">返回遊戲</string>
+	<string name="prefs">設定</string>
+
+	<string name="pref_dict">字典</string>
+	<string name="pref_dict_en_US">美式英文</string>
+	<string name="pref_dict_en_GB">英式英文</string>
+
+	<string name="pref_boardSize">圖版大小</string>
+
+	<string name="pref_timeLimit">時限</string>
+
+	<string name="pref_sounds">音效</string>
+	<string name="pref_sounds_summary">選擇遊戲會否發出音效</string>
+
+	<string name="dialog_about_title">關於Lexica</string>
+	<string name="menu_rotate_board">旋轉圖版</string>
+	<string name="menu_save_game">儲存遊戲</string>
+	<string name="menu_end_game">結束遊戲</string>
+	<string name="button_ok">確定</string>
+
+	<string name="about">關於遊戲</string>
+
+	<string name="view_word"><u>查看</u></string>
+	<string name="define_word"><u>定義</u> </string>
+
+	<string name="found_words">找到的單詞</string>
+	<string name="missed_words">遺漏的單詞</string>
+	<string name="total_words">總詞數：</string>
+	<string name="total_score">總分數：</string>
+	<string name="words">單詞</string>
+	<string name="show_missed">顯示您遺漏的單詞</string>
+	<string name="hide_missed">隱藏您遺漏的單詞</string>
+
+	<string name="hide_unique">隱藏獨特的單詞</string>
+
+	<string name="show_unique">顯示獨特的單詞</string>
+	<string name="dialog_about_content">您要在3分鐘之內拼出圖版上所有單詞。要拼出單詞，請先觸碰螢幕後移動至相鄰的方格。 
+\n 
+\n計分方式： 
+\n在4×4的圖版上，單詞必須由至少3個字母組成；在5×5的圖版上，單詞必須由至少4個字母組成。由3個或4個字母組成的單詞記 1 分，找出更長的單詞將獲更高分。專名詞不計任何分數。 
+\n 
+\n</string>
+
+	<string name="value_max_percentage">%1$d/%2$d（%3$d%%）</string>
+<string name="pref_scoreType">計分方式</string>
+	<string name="word_length">單詞長度</string>
+	<string name="letter_points">字母分數</string>
+
+	<string name="score">分數</string>
+	<string name="high_score">高分紀錄</string>
+	<string name="pref_resetScores_summary">遊戲為每個遊戲模式紀錄最高分，按此以重設所有分數紀錄至零分。</string>
+	<string name="pref_resetScores">重設高分紀錄</string>
+    <string name="high_scores_reset">您已重設高分紀錄。</string>
+	<string name="reset_scores_prompt">您確定要重設所有分數至零分？</string>
+
+    <string name="pref_breakdown">顯示單詞長度分析</string>
+	<string name="pref_breakdown_summary">選擇是否顯示圖版上各單詞的長度</string>
+
+	<string name="pref_definitionProvider">定義來源</string>
+	<string name="pref_definitionProvider_summary">選擇定義來源。如果您沒有安裝所選的定義來源，遊戲將使用DuckDuckGo的字典服務。</string>
+	<string name="pref_definitionProvider_dialog">選擇定義來源</string>
+<string name="pref_dict_de_DE">德文</string>
+	<string name="pref_dict_nl">荷蘭文</string>
+	<string name="pref_dict_fa">波斯文</string>
+	<string name="pref_dict_fr_FR">法文</string>
+	<string name="pref_dict_it">義大利文</string>
+	<string name="pref_dict_ca">加泰隆尼亞文</string>
+	<string name="pref_dict_es">西班牙文</string>
+	<string name="lexicon_is_in_beta">測試中</string>
+
+	<string name="pref_dict_ja">日文</string>
+	<string name="pref_dict_ru">俄文</string>
+    <string name="pref_dict_hu">匈牙利文</string>
+</resources>

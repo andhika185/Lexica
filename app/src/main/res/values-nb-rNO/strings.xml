@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lexica</string>
+    <string name="new_game">Nytt spill</string>
+    <string name="restore_game">Gjenopprett spill</string>
+    <string name="prefs">Innstillinger</string>
+    <string name="pref_dict">Leksikon</string>
+    <string name="pref_dict_en_US">Engelsk (USA)</string>
+    <string name="pref_dict_en_GB">Engelsk (UK)</string>
+    <string name="pref_boardSize">Brettstørrelse</string>
+    <string name="pref_timeLimit">Tidsgrense</string>
+    <string name="pref_scoreType">Poengivningstype</string>
+    <string name="word_length">Ordlengde</string>
+    <string name="letter_points">Bokstavpoeng</string>
+    <string name="pref_sounds">Lyder påskrudd</string>
+    <string name="pref_sounds_summary">Hvorvidt eller ei lydeffekter er påskrudd</string>
+    <string name="dialog_about_title">Om Lexica</string>
+    <string name="dialog_about_content">Trykk på skjermen og flytt fingeren til hosliggende firkanter for å stave ord. Du har tre minutter på å finne så mange ord som mulig.
+\n
+\nPoenggivning:
+\nPå 4x4-brett må ord være minst tre bokstaver lange. På 5x5-brett, må de være minst fire bokstaver lange. Ord som har tre eller fire bokstaver er verdt ett poeng. Lengre ord er verd flere peng. Egennavn telles ikke.
+\n
+\n</string>
+    <string name="menu_rotate_board">Roter brettet</string>
+    <string name="menu_save_game">Lagre spill</string>
+    <string name="menu_end_game">Fullfør spillet</string>
+    <string name="button_ok">OK</string>
+    <string name="about">Om</string>
+    <string name="show_missed">Vis oversette ord</string>
+    <string name="hide_missed">Skjul oversette ord</string>
+    <string name="show_unique">Vis unike ord</string>
+    <string name="hide_unique">Skjul unike ord</string>
+    <string name="view_word"><u>Vis</u></string>
+    <string name="define_word"><u>Definer</u> </string>
+    <string name="words">Ord</string>
+    <string name="score">Poengsum</string>
+    <string name="found_words">Funnede ord</string>
+    <string name="missed_words">Oversette ord</string>
+    <string name="total_words">Totalt antall ord:</string>
+    <string name="total_score">Total poengsum:</string>
+    <string name="value_max_percentage">%1$d/%2$d (%3$d%%)</string>
+    <string name="high_score">Høyeste poengsum</string>
+    <string name="pref_resetScores_summary">Høyeste poengsum spores for hver kombinasjon av ovennevnte innstillinger. Trykk for å tilbakestille alle poengsummer til null.</string>
+    <string name="pref_resetScores">Tilbakestill bestenoteringsliste</string>
+    <string name="high_scores_reset">Bestenoteringslisten har blitt tilbakestilt.</string>
+    <string name="reset_scores_prompt">Er du sikker på at du ønsker å tilbakestille alle bestenoteringslister til null?</string>
+    <string name="pref_breakdown">Vis inndeling av ordlengde</string>
+    <string name="pref_breakdown_summary">Hvorvidt eller ei ordtellingen viser ord etter ordlengde</string>
+    <string name="pref_definitionProvider">Definisjonstilbyder</string>
+    <string name="pref_definitionProvider_summary">Velg en definisjonstilbyder å bruke. Hvis valgt definisjonstilbyder ikke er installert, vil en nettbasert kilde som Wiktionary bli brukt.</string>
+    <string name="pref_definitionProvider_dialog">Velg definisjonstilbyder</string>
+    <string name="pref_dict_de_DE">Tysk</string>
+    <string name="pref_dict_nl">Nederlandsk</string>
+    <string name="pref_dict_fr_FR">Fransk</string>
+    <string name="pref_dict_it">Italiensk</string>
+    <string name="pref_dict_ca">Katalansk</string>
+    <string name="pref_dict_es">Spansk</string>
+    <string name="lexicon_is_in_beta">beta</string>
+    <string name="pref_dict_fa">Farsi</string>
+    <string name="pref_dict_ja">Japansk</string>
+    <string name="pref_dict_ru">Russisk</string>
+    <string name="pref_dict_hu">Ungarsk</string>
+    <string name="pref_hintMode">Hintmodus</string>
+    <string name="pref_hintMode_summary">Viser antall ord hver bokstav kan brukes i</string>
+    <string name="tile_count">Antall ord</string>
+    <string name="hint_colour">Flisfarge</string>
+    <string name="pref_dict_uk">Ukrainsk</string>
+    <string name="pref_definitionProvider_dictionaryProvider_online">På nett</string>
+    <string name="pref_dict_pl">Polsk</string>
+    <string name="pref_dict_pt_BR">Portugisisk (Brasil)</string>
+    <string name="sort">Sorter</string>
+    <string name="theme_dark">Mørk</string>
+    <string name="theme_light">Lys</string>
+    <string name="pref_theme_dialog">Draktvalg</string>
+    <string name="pref_theme">Drakt</string>
+    <string name="time">Tid</string>
+    <string name="theme_high_contrast">Høykontrast</string>
+    <string name="error_restoring_game">Klarte ikke å gjenopprette spillet ditt</string>
+    <string name="whats_new_game_modes_why">Takket være bidragsytere fra gemenskapen er det nå flere måter å spille Lexica. Dette gjør det vanskeligere å forklare hvordan topp-poengsummer scores, og hver nye funksjon betyr mer kompleksitet.
+\n
+\nDette gjør det enklere å forstå hvilke kombinasjoner av innstillinger som fører til en gitt topp-poengsum.
+\n
+\nSom en bonus, har kodebasen blitt oppdatert slik at det er enklere å legge til en lokal database for opptak av alle ord og enhver topp-poengsum som scores.</string>
+    <string name="whats_new_game_modes_description">Følgende innstillinger har blitt erstattet med forskjellige spillmodus: Varighet, brettstørrelse, minimumsordlengde, scoringstype, og hint-modus.
+\n
+\nDu kan endre spillmodus fra hovedskjermen, eller opprette ditt eget. Topp-poengsummer er basert på spillmodus og leksikon.</string>
+    <string name="game_mode_legacy_description">Brukt i tidligere versjon av Lexica</string>
+    <string name="game_mode_legacy">Gammeldags</string>
+    <string name="game_mode_custom_description">Egendefinert spillmodus</string>
+    <string name="game_mode_letter_points_description">Score flere poeng for bruk av sjeldnere brukte bokstaver</string>
+    <string name="game_mode_beginner">Nybegynner</string>
+    <string name="game_mode_marathon_description">Prøv å finne alle ordene, uten tidspress</string>
+    <string name="input_game_mode_minutes_description">Tidsgrense i minutter</string>
+    <string name="input_game_mode_name_description">For valg av spillmodus / opptak av topp-poengsummer</string>
+    <string name="delete_custom_game_mode">Slett det egendefinerte spillmoduset «%1$s»\? Alle topp-poengsummer vil gå tapt.</string>
+    <plurals name="num_minutes">
+        <item quantity="one">ett min.</item>
+        <item quantity="other">%d min.</item>
+    </plurals>
+    <string name="whats_new_why">Hvorfor\?</string>
+    <string name="whats_new_game_modes">Spillmodi</string>
+    <string name="whats_new_continue">Fortsett</string>
+    <string name="whats_new_title">Hva er nytt</string>
+    <string name="game_mode_letter_points">Bokstavpoent</string>
+    <string name="game_mode_beginner_description">Bruk hint for hjelp til å finne flere ord</string>
+    <string name="game_mode_marathon">Maraton</string>
+    <string name="game_mode_sprint_description">Kort spill der målet er å finne så mange ord som mulig</string>
+    <string name="game_mode_sprint">Sprint</string>
+    <string name="menu_save_game_mode">Lagre</string>
+    <string name="menu_new_game_mode">Ny</string>
+    <string name="input_game_mode_name_hint">Navn</string>
+    <string name="button_cancel">Avbryt</string>
+    <string name="button_delete">Slett</string>
+    <string name="menu_view_found_words">Vis oppdagede ord</string>
+    <plurals name="max_score_points_suffix">
+        <item quantity="one">/%d poeng</item>
+        <item quantity="other">/%d poeng</item>
+    </plurals>
+    <plurals name="num_found_words_out_of_total">
+        <item quantity="one">%d/%d ord</item>
+        <item quantity="other">%d/%d ord</item>
+    </plurals>
+    <string name="high_scores">Topp-poengsummer</string>
+</resources>

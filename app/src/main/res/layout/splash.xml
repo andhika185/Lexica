@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:fancy="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="?attr/home__background_colour"
+	android:orientation="vertical">
+
+	<mehdi.sakout.fancybuttons.FancyButton
+		android:id="@+id/language_button"
+		app:layout_constraintEnd_toStartOf="@id/game_mode_button"
+		app:layout_constraintTop_toTopOf="parent"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		fancy:fb_fontIconResource="&#xf0ac;"
+		fancy:fb_fontIconSize="?attr/game__score__heading_text_size"
+		fancy:fb_radius="12dp"
+		fancy:fb_iconPaddingLeft="8dp"
+		fancy:fb_iconPaddingRight="8dp"
+		fancy:fb_iconPaddingTop="8dp"
+		fancy:fb_iconPaddingBottom="8dp"
+		android:paddingEnd="8dp"
+		android:paddingStart="8dp"
+		fancy:fb_text="English (US)"
+		fancy:fb_defaultColor="?attr/home__secondary_button_background"
+		fancy:fb_focusColor="?attr/home__secondary_button_background_focused"
+		fancy:fb_textColor="?attr/home__secondary_button_text_colour"
+		android:layout_marginTop="?attr/game__score__padding"
+		android:layout_marginEnd="?attr/game__score__padding"
+		android:layout_marginStart="?attr/game__score__padding" />
+
+	<mehdi.sakout.fancybuttons.FancyButton
+		android:id="@+id/game_mode_button"
+		app:layout_constraintEnd_toEndOf="@id/lexicaLogo"
+		app:layout_constraintTop_toTopOf="parent"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		fancy:fb_fontIconResource="&#xf091;"
+		fancy:fb_fontIconSize="?attr/game__score__heading_text_size"
+		fancy:fb_radius="12dp"
+		fancy:fb_iconPaddingLeft="8dp"
+		fancy:fb_iconPaddingRight="8dp"
+		fancy:fb_iconPaddingTop="8dp"
+		fancy:fb_iconPaddingBottom="8dp"
+		android:paddingEnd="8dp"
+		android:paddingStart="8dp"
+		fancy:fb_text="Marathon"
+		fancy:fb_defaultColor="?attr/home__secondary_button_background"
+		fancy:fb_focusColor="?attr/home__secondary_button_background_focused"
+		fancy:fb_textColor="?attr/home__secondary_button_text_colour"
+		android:layout_marginTop="?attr/game__score__padding"
+		android:layout_marginEnd="?attr/game__score__padding"
+		android:layout_marginStart="?attr/game__score__padding" />
+
+	<TextView
+		android:id="@+id/high_score_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="?attr/game__score__heading_text_size"
+		android:textColor="?attr/game__score__heading_text_colour"
+		app:layout_constraintEnd_toEndOf="@id/lexicaLogo"
+		app:layout_constraintTop_toBottomOf="@id/game_mode_button"
+		android:paddingTop="?attr/game__score__padding"
+		android:paddingEnd="?attr/game__score__padding"
+		android:paddingRight="?attr/game__score__padding"
+		android:paddingStart="?attr/game__score__padding"
+		android:paddingLeft="?attr/game__score__padding"
+		android:text="@string/high_score" />
+
+	<TextView
+		android:id="@+id/high_score"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="?attr/game__score__value_text_size"
+		android:textColor="?attr/game__score__text_colour"
+		android:paddingEnd="?attr/game__score__padding"
+		android:paddingRight="?attr/game__score__padding"
+		android:paddingStart="?attr/game__score__padding"
+		android:paddingLeft="?attr/game__score__padding"
+		app:layout_constraintEnd_toEndOf="@id/high_score_label"
+		app:layout_constraintTop_toBottomOf="@id/high_score_label"
+		tools:text="35" />
+
+	<com.serwylo.lexica.view.LexicaLogo
+		android:id="@+id/lexicaLogo"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/high_score"
+		app:layout_constraintBottom_toTopOf="@id/new_game" />
+
+	<mehdi.sakout.fancybuttons.FancyButton
+		android:id="@+id/new_game"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:paddingTop="?attr/home__button_padding"
+		android:paddingBottom="?attr/home__button_padding"
+		app:layout_constraintBottom_toTopOf="@+id/button_wrapper"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		fancy:fb_defaultColor="?attr/home__main_button_background"
+		fancy:fb_borderWidth="2dp"
+		fancy:fb_borderColor="?attr/home__main_button_border"
+		fancy:fb_focusColor="?attr/home__main_button_background__focused"
+		fancy:fb_fontIconResource="&#xf144;"
+		fancy:fb_fontIconSize="28sp"
+		fancy:fb_iconPosition="left"
+		fancy:fb_text="@string/new_game"
+		fancy:fb_textSize="28sp">
+
+	</mehdi.sakout.fancybuttons.FancyButton>
+
+	<LinearLayout
+		android:id="@+id/button_wrapper"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="@+id/lexicaLogo"
+		app:layout_constraintStart_toStartOf="@+id/lexicaLogo">
+
+		<mehdi.sakout.fancybuttons.FancyButton
+			android:id="@+id/about"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:paddingTop="?attr/home__button_padding"
+			android:paddingBottom="?attr/home__button_padding"
+			app:layout_constraintWidth_percent="0.34"
+			fancy:fb_borderWidth="2dp"
+			fancy:fb_borderColor="?attr/home__secondary_button_border"
+			fancy:fb_defaultColor="?attr/home__secondary_button_background"
+			fancy:fb_focusColor="?attr/home__secondary_button_background_focused"
+			fancy:fb_fontIconResource="&#xf059;"
+			fancy:fb_fontIconSize="24sp"
+			fancy:fb_iconPosition="top"
+			fancy:fb_text="@string/about"
+			fancy:fb_textColor="?attr/home__secondary_button_text_colour"
+			fancy:fb_textSize="18sp" />
+
+		<mehdi.sakout.fancybuttons.FancyButton
+			android:id="@+id/restore_game"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:enabled="false"
+			android:paddingTop="?attr/home__button_padding"
+			android:paddingBottom="?attr/home__button_padding"
+			app:layout_constraintWidth_percent="0.34"
+			fancy:fb_borderWidth="2dp"
+			fancy:fb_borderColor="?attr/home__secondary_button_border"
+			fancy:fb_defaultColor="?attr/home__secondary_button_background"
+			fancy:fb_disabledColor="?attr/home__secondary_button_background"
+			fancy:fb_disabledTextColor="?attr/home__secondary_button_text_colour_disabled"
+			fancy:fb_focusColor="?attr/home__secondary_button_background_focused"
+			fancy:fb_fontIconResource="&#xf021;"
+			fancy:fb_fontIconSize="24sp"
+			fancy:fb_iconPosition="top"
+			fancy:fb_text="@string/restore_game"
+			fancy:fb_textColor="?attr/home__secondary_button_text_colour"
+			fancy:fb_textSize="18sp" />
+
+		<mehdi.sakout.fancybuttons.FancyButton
+			android:id="@+id/preferences"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:paddingTop="?attr/home__button_padding"
+			android:paddingBottom="?attr/home__button_padding"
+			app:layout_constraintWidth_percent="0.34"
+			fancy:fb_borderWidth="2dp"
+			fancy:fb_borderColor="?attr/home__secondary_button_border"
+			fancy:fb_defaultColor="?attr/home__secondary_button_background"
+			fancy:fb_focusColor="?attr/home__secondary_button_background_focused"
+			fancy:fb_fontIconResource="&#xf013;"
+			fancy:fb_fontIconSize="24sp"
+			fancy:fb_iconPosition="top"
+			fancy:fb_text="@string/prefs"
+			fancy:fb_textColor="?attr/home__secondary_button_text_colour"
+			fancy:fb_textSize="18sp">
+
+		</mehdi.sakout.fancybuttons.FancyButton>
+	</LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

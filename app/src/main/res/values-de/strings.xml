@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lexica</string>
+    <string name="about">Über</string>
+    <string name="button_ok">OK</string>
+    <string name="define_word"><u>Definition</u> </string>
+    <string name="dialog_about_title">Über Lexica</string>
+    <string name="found_words">Gefundene Wörter</string>
+    <string name="hide_missed">Übersehene Wörter ausblenden</string>
+    <string name="hide_unique">Eindeutige Wörter ausblenden</string>
+    <string name="menu_end_game">Spiel beenden</string>
+    <string name="menu_rotate_board">Spielfeld drehen</string>
+    <string name="menu_save_game">Spiel speichern</string>
+    <string name="missed_words">Übersehene Wörter</string>
+    <string name="new_game">Neues Spiel</string>
+    <string name="pref_boardSize">Spielfeldgröße</string>
+    <string name="pref_dict">Lexikon</string>
+    <string name="pref_dict_en_GB">Englisch (UK)</string>
+    <string name="pref_dict_en_US">Englisch (US)</string>
+    <string name="pref_sounds">Klänge aktiviert</string>
+    <string name="pref_sounds_summary">Ob Soundeffekte aktiviert sind oder nicht</string>
+    <string name="pref_timeLimit">Zeitbegrenzung</string>
+    <string name="prefs">Einstellungen</string>
+    <string name="restore_game">Spiel wiederherstellen</string>
+    <string name="show_missed">Übersehene Wörter anzeigen</string>
+    <string name="show_unique">Eindeutige Wörter anzeigen</string>
+    <string name="total_score">Punkte insgesamt:</string>
+    <string name="total_words">Wörter insgesamt:</string>
+    <string name="view_word"><u>Ansicht</u></string>
+    <string name="words">Wörter</string>
+    <string name="dialog_about_content">Berühren Sie den Bildschirm und bewegen Sie Ihren Finger über benachbarte Felder, um Wörter zu buchstabieren. Sie haben drei Minuten, um so viele Wörter wie möglich zu finden.
+\n
+\nPunktevergabe:
+\nAuf 4×4 großen Spielfeldern müssen Wörter mindestens drei Buchstaben lang sein, auf 5×5 großen Spielfeldern mindestens vier Buchstaben lang. Wörter, die drei oder vier Buchstaben lang sind, zählen einen Punkt. Längere Wörter zählen mehr Punkte. Eigennamen zählen nicht.
+\n
+\n</string>
+    <string name="pref_scoreType">Wertungsmodus</string>
+    <string name="word_length">Wortlänge</string>
+    <string name="value_max_percentage">%1$d/%2$d (%3$d%%)</string>
+    <string name="high_score">Höchste Punktzahl</string>
+    <string name="pref_resetScores_summary">Die höchste Punktzahl wird für jede Kombination der oben genannten Einstellungen aufgezeichnet. Antippen, um alle Ergebnisse auf Null zurückzusetzen.</string>
+    <string name="pref_resetScores">Höchste Punktzahlen zurücksetzen</string>
+    <string name="high_scores_reset">Höchste Punktzahl wurde zurückgesetzt</string>
+    <string name="reset_scores_prompt">Bist du dir sicher, dass du alle höchste Punktzahlen in allen Spielmodi zurücksetzen möchtest\?</string>
+    <string name="pref_breakdown">Wortlängen-Aufschlüsselung anzeigen</string>
+    <string name="letter_points">Buchstabenpunkte</string>
+    <string name="pref_hintMode">Hinweise</string>
+    <string name="pref_hintMode_summary">Zeigt die Anzahl Wörter in der jeder Buchstabe verwendet werden kann</string>
+    <string name="score">Punkte</string>
+    <string name="pref_definitionProvider">Wörterbuch</string>
+    <string name="pref_definitionProvider_summary">Wählen Sie ein Wörterbuch aus. Ist die ausgewählte Quelle nicht installiert, wird eine Online-Quelle wie Wiktionary verwendet.</string>
+    <string name="pref_definitionProvider_dialog">Wörterbuchauswahl</string>
+    <string name="pref_dict_de_DE">Deutsch</string>
+    <string name="pref_dict_nl">Niederländisch</string>
+    <string name="pref_dict_fa">Persisch</string>
+    <string name="pref_dict_fr_FR">Französisch</string>
+    <string name="pref_dict_it">Italienisch</string>
+    <string name="pref_dict_ca">Katalanisch</string>
+    <string name="pref_dict_es">Spanisch</string>
+    <string name="pref_dict_ja">Japanisch</string>
+    <string name="pref_dict_ru">Russisch</string>
+    <string name="lexicon_is_in_beta">Beta</string>
+    <string name="pref_dict_hu">Ungarisch</string>
+    <string name="pref_breakdown_summary">Ob die Anzahl der Wörter unter dem Spielfeld nach Wortlänge gruppiert wird</string>
+    <string name="tile_count">Anzahl Wörter</string>
+    <string name="hint_colour">Farbe der Kacheln</string>
+    <string name="pref_dict_uk">Ukrainisch</string>
+    <string name="pref_definitionProvider_dictionaryProvider_online">Online</string>
+    <string name="pref_dict_pl">Polnisch</string>
+    <string name="pref_dict_pt_BR">Portugiesisch (Brasilien)</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="theme_light">Hell</string>
+    <string name="pref_theme_dialog">Thema auswählen</string>
+    <string name="pref_theme">Thema</string>
+    <string name="time">Zeit</string>
+    <string name="sort">Sortieren</string>
+    <string name="theme_high_contrast">Hoher Kontrast</string>
+    <string name="whats_new_game_modes_why">Dank der Beiträge der Gemeinschaft haben sich die Möglichkeiten, Lexica zu spielen, erweitert. Dies macht es schwieriger zu erklären, wie hohe Punktzahlen aufgezeichnet werden, und jede neue Funktion erhöht die Komplexität.
+\n
+\nDiese Änderungen erleichtern das Verständnis, welche Kombination von Einstellungen zu einer bestimmten hohen Punktzahl führt.
+\n
+\nAls zusätzlichen Bonus wurden die Interna von Lexica aktualisiert, um die zukünftige Verbesserung zu vereinfachen, indem eine lokale Datenbank hinzugefügt wird, in der jedes einzelne gefundene Wort und jede hohe Punktzahl aufgezeichnet wird.</string>
+    <string name="whats_new_game_modes_description">Die folgenden Einstellungen wurden durch Spielmodi ersetzt: Dauer, Brettgröße, minimale Wortlänge, Wertungstyp und Hinweismodi.
+\n
+\nSie können den Spielmodus über den Hauptbildschirm ändern oder Ihren eigenen erstellen. Höchste Punktzahlen basieren auf dem Spielmodus und dem Lexikon.</string>
+    <string name="input_game_mode_name_description">Zur Auswahl des Spielmodus / Aufzeichnung von Höchsten Punktzahlen</string>
+    <string name="game_mode_sprint">Sprint</string>
+    <plurals name="num_minutes">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <string name="whats_new_why">Warum\?</string>
+    <string name="whats_new_game_modes">Spielmodi</string>
+    <string name="whats_new_continue">Fortfahren</string>
+    <string name="whats_new_title">Was gibt\'s Neues</string>
+    <string name="error_restoring_game">Konnte das Spiel nicht wiederherstellen</string>
+    <string name="game_mode_legacy_description">In einer früheren Version von Lexica verwendet</string>
+    <string name="game_mode_legacy">Legacy</string>
+    <string name="game_mode_custom_description">Benutzerdefinierter Spielmodus</string>
+    <string name="game_mode_letter_points_description">Erzielen Sie mehr Punkte, wenn Sie weniger gebräuchliche Buchstaben verwenden</string>
+    <string name="game_mode_letter_points">Buchstabenpunkte</string>
+    <string name="game_mode_beginner_description">Verwenden Sie Hinweise, um Wörter zu finden</string>
+    <string name="game_mode_beginner">Anfängerein</string>
+    <string name="game_mode_marathon_description">Versuchen Sie, alle Wörter ohne Zeitdruck zu finden</string>
+    <string name="game_mode_marathon">Marathon</string>
+    <string name="game_mode_sprint_description">Kurzes Spiel, um so viele Wörter wie möglich zu finden</string>
+    <string name="menu_save_game_mode">Speichern</string>
+    <string name="menu_new_game_mode">Neu</string>
+    <string name="input_game_mode_minutes_description">Zeitlimit in Minuten</string>
+    <string name="input_game_mode_name_hint">Name</string>
+    <string name="button_cancel">Abbrechen</string>
+    <string name="button_delete">Löschen</string>
+    <plurals name="max_score_points_suffix">
+        <item quantity="one">/ %d Punkt</item>
+        <item quantity="other">/ %d Punkte</item>
+    </plurals>
+    <plurals name="num_found_words_out_of_total">
+        <item quantity="one">%d / %d Wort</item>
+        <item quantity="other">%d / %d Wörter</item>
+    </plurals>
+    <string name="menu_view_found_words">Gefundene Wörter anzeigen</string>
+    <string name="delete_custom_game_mode">Benutzerdefinierten Spielmodus „%1$s“ löschen\? Alle höchste Punktzahlen gehen verloren.</string>
+    <string name="high_scores">Höchste Punktzahlen</string>
+</resources>
