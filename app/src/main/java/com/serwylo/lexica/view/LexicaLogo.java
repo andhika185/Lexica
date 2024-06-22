@@ -124,13 +124,13 @@ public class LexicaLogo extends View {
 
         Random rng = new Random();
 
-        for (int i = 0; i < 20; i++) {
+        /*for (int i = 0; i < 20; i++) {
             String l = LETTERS[rng.nextInt(LETTERS.length)];
             int x = rng.nextInt(width - size - 10) + 5;
             int y = rng.nextInt(height - size - 10) + 5;
 
             drawTile(canvas, p, l, BoxColor.BACKGROUND, x, y, size, offset);
-        }
+        }*/
 
         int outerPadding = paddingSize * 2;
         int totalInnerPadding = paddingSize * 5;

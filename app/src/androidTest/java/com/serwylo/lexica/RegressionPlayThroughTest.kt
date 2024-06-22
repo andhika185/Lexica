@@ -228,6 +228,10 @@ class RegressionPlayThroughTest (val language: Language) {
         clickId(R.id.preferences)
     }
 
+    private fun fromSplashShowSettings() {
+        clickId(R.id.help)
+    }
+
     private fun fromScoreSelectBack() {
         clickId(R.id.back_button)
     }

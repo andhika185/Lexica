@@ -61,10 +61,12 @@ public class MainMenuActivity extends AppCompatActivity {
         });
 
         binding.gameModeButton.setOnClickListener(v -> startActivity(new Intent(this, ChooseGameModeActivity.class)));
-        binding.gameModeButton.setText(gameMode.label(this));
+        //binding.gameModeButton.setText(gameMode.label(this));
+        binding.gameModeButton.setText(getResources().getString(R.string.game_mode));
 
         Language language = new Util().getSelectedLanguageOrDefault(this);
-        binding.languageButton.setText(LanguageLabel.getLabel(this, language));
+        //binding.languageButton.setText(LanguageLabel.getLabel(this, language));
+        binding.languageButton.setText(getResources().getString(R.string.pref_dict));
         binding.languageButton.setOnClickListener(v -> startActivity(new Intent(this, ChooseLexiconActivity.class)));
 
         if (savedGame()) {
@@ -72,12 +74,7 @@ public class MainMenuActivity extends AppCompatActivity {
             binding.restoreGame.setEnabled(true);
         }
 
-        binding.about.setOnClickListener(v -> {
-            Intent i = new Intent(Intent.ACTION_VIEW);
-            Uri u = Uri.parse("https://github.com/lexica/lexica");
-            i.setData(u);
-            startActivity(i);
-        });
+        binding.about.setOnClickListener(v -> startActivity(new Intent(this, HelpActivity.class)));
 
         binding.preferences.setOnClickListener(v -> startActivity(new Intent("com.serwylo.lexica.action.CONFIGURE")));
 

@@ -15,6 +15,7 @@
     <string name="pref_dict_fr_FR_description" tools:keep="@string/pref_dict_fr_FR_description">Includes diacritics: àâçéèêëîïôöûü</string>
     <string name="pref_dict_fr_FR_no_diacritics" tools:keep="@string/pref_dict_fr_FR_no_diacritics">French</string>
     <string name="pref_dict_hu" tools:keep="@string/pref_dict_hu">Hungarian</string>
+    <string name="pref_dict_id" tools:keep="@string/pref_dict_id">Indonesian</string>
     <string name="pref_dict_it" tools:keep="@string/pref_dict_it">Italian</string>
     <string name="pref_dict_ja" tools:keep="@string/pref_dict_ja">Japanese</string>
     <string name="pref_dict_nl" tools:keep="@string/pref_dict_nl">Dutch</string>
@@ -125,4 +126,11 @@
         <item quantity="one">%d min</item>
         <item quantity="other">%d mins</item>
     </plurals>
+    <string name="game_mode">Game mode</string>
+    <string name="help">Help</string>
+    <string name="game_description">Lexica is a word game that is available on the Android platform. Players are given 3 to 30 minutes to find as many words as possible on a grid of random letters.</string>
+    <string name="what_is_it">What is it?</string>
+    <string name="lexica_what_is_it">Lexica is a word game that is available on the Android platform. Players are given 3 to 30 minutes to find as many words as possible on a grid of random letters.</string>
+    <string name="help_how_to_play">How to play</string>
+    <string name="help_find_words">How to find words</string>
 </resources>

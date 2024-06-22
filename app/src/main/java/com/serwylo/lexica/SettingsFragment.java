@@ -61,7 +61,7 @@ public class SettingsFragment extends PreferenceFragmentCompat {
     private void clearHighScores() {
         Database.writeExecutor.execute(() -> {
             Database.get(getContext()).resultDao().deleteAll();
-            Toast.makeText(getContext(), R.string.high_scores_reset, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(getContext(), R.string.high_scores_reset, Toast.LENGTH_SHORT).show();
         });
     }
 }
