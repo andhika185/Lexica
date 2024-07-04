@@ -129,8 +129,8 @@
     <string name="game_mode">Game mode</string>
     <string name="help">Help</string>
     <string name="game_description">Lexica is a word game that is available on the Android platform. Players are given 3 to 30 minutes to find as many words as possible on a grid of random letters.</string>
-    <string name="what_is_it">What is it?</string>
-    <string name="lexica_what_is_it">Lexica is a word game that is available on the Android platform. Players are given 3 to 30 minutes to find as many words as possible on a grid of random letters.</string>
+    <string name="about_lexica">About Lexica</string>
+    <string name="lexica_what_is_it">Lexica is a word game that is available on the Android platform. Players are given time to find as many words as possible on a grid of random letters.</string>
     <string name="help_how_to_play">How to play</string>
-    <string name="help_find_words">How to find words</string>
+    <string name="help_how_to_play_desc">To play Lexica, start a new game by tapping \"New Game\" from the main menu. On the game screen, connect adjacent letters in the grid to form words, with connections possible horizontally, vertically, or diagonally. Each word must be at least three letters long and is automatically submitted upon formation, with points awarded based on the word\'s length and complexity. The game keeps track of your score and the number of words found, and your performance is summarized at the end of the game, showing both found and missed words along with their point values.</string>
 </resources>

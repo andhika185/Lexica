@@ -4,9 +4,9 @@
     <string name="menu_save_game">Simpan Permainan</string>
     <string name="menu_end_game">Akhiri Permainan</string>
     <string name="new_game">Permainan Baru</string>
-    <string name="restore_game">Pulihkan Permainan</string>
-    <string name="prefs">Setelan</string>
-    <string name="pref_dict">Kosakata</string>
+    <string name="restore_game">Lanjutkan Permainan</string>
+    <string name="prefs">Pengaturan</string>
+    <string name="pref_dict">Kamus</string>
     <string name="pref_dict_ca">Katalan</string>
     <string name="pref_dict_de_DE">Jerman (Diperlengkap)</string>
     <string name="pref_dict_de_DE_description">Mengandung diakritik: äöü</string>
@@ -63,7 +63,7 @@
     <string name="high_score">Nilai Tertinggi</string>
     <string name="high_scores">Nilai Tertinggi</string>
     <string name="pref_resetScores_summary">Nilai tertinggi dilacak untuk setiap kombinasi pengaturan di atas. Ketuk untuk mengatur ulang semua skor ke nol</string>
-    <string name="pref_resetScores">Atur Ulang Nilai Tinggi</string>
+    <string name="pref_resetScores">Atur Ulang Nilai Tertinggi</string>
     <string name="high_scores_reset">Nilai tertinggi tertinggi telah diatur ulang</string>
     <string name="reset_scores_prompt">Apakah kamu yakin ingin mengatur ulang semua nilai tertinggi untuk semua mode permainan ke nol?</string>
     <string name="pref_breakdown">Tampilkan Perincian Panjang Kata</string>
@@ -95,8 +95,9 @@
     <string name="error_restoring_game">Tidak dapat memulihkan game</string>
     <string name="whats_new_title">Apa Yang Baru</string>
     <string name="whats_new_continue">Lanjutkan</string>
-    <string name="what_is_it">Apa itu?</string>
-    <string name="lexica_what_is_it">Lexica adalah permainan kata yang tersedia di platform Android. Pemain diberi waktu 3 hingga 30 menit untuk menemukan kata sebanyak mungkin pada kisi-kisi huruf acak.</string>
+    <string name="about_lexica">Tentang Lexica</string>
+    <string name="help">Bantuan</string>
+    <string name="lexica_what_is_it">Lexica adalah permainan kata yang tersedia di platform Android. Pemain diberi waktu untuk menemukan kata sebanyak mungkin dalam kotak huruf acak.</string>
     <string name="help_how_to_play">Cara bermain</string>
-    <string name="help_find_words">Cara mencari kata</string>
+    <string name="help_how_to_play_desc">Untuk memainkan Lexica, mulai permainan baru dengan mengetuk \"Permainan Baru\" dari menu utama. Pada layar permainan, hubungkan huruf yang berdekatan dalam kotak untuk membentuk kata, dengan koneksi bisa secara horizontal, vertikal, atau diagonal. Setiap kata harus terdiri dari minimal tiga huruf dan secara otomatis dikirimkan setelah terbentuk, dengan poin yang diberikan berdasarkan panjang dan kerumitan kata. Permainan ini melacak skor dan jumlah kata yang ditemukan, dan performa pemain dirangkum di akhir permainan, yang menampilkan kata-kata yang ditemukan dan yang terlewatkan beserta nilai poinnya.</string>
 </resources>

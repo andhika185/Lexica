@@ -121,7 +121,7 @@
 		app:layout_constraintStart_toStartOf="@+id/lexicaLogo">
 
 		<mehdi.sakout.fancybuttons.FancyButton
-			android:id="@+id/about"
+			android:id="@+id/help"
 			android:layout_width="0dp"
 			android:layout_height="match_parent"
 			android:layout_weight="1"
@@ -135,7 +135,7 @@
 			fancy:fb_fontIconResource="&#xf059;"
 			fancy:fb_fontIconSize="24sp"
 			fancy:fb_iconPosition="top"
-			fancy:fb_text="@string/about"
+			fancy:fb_text="@string/help"
 			fancy:fb_textColor="?attr/home__secondary_button_text_colour"
 			fancy:fb_textSize="18sp" />
 
