@@ -74,7 +74,7 @@ public class MainMenuActivity extends AppCompatActivity {
             binding.restoreGame.setEnabled(true);
         }
 
-        binding.about.setOnClickListener(v -> startActivity(new Intent(this, HelpActivity.class)));
+        binding.help.setOnClickListener(v -> startActivity(new Intent(this, HelpActivity.class)));
 
         binding.preferences.setOnClickListener(v -> startActivity(new Intent("com.serwylo.lexica.action.CONFIGURE")));
 
