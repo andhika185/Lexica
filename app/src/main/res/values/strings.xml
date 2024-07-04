@@ -126,7 +126,7 @@
         <item quantity="one">%d min</item>
         <item quantity="other">%d mins</item>
     </plurals>
-    <string name="game_mode">Game mode</string>
+    <string name="game_mode">Game Mode</string>
     <string name="help">Help</string>
     <string name="game_description">Lexica is a word game that is available on the Android platform. Players are given 3 to 30 minutes to find as many words as possible on a grid of random letters.</string>
     <string name="about_lexica">About Lexica</string>

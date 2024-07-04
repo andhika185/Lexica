@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Lexica</string>
-    <string name="menu_save_game">Simpan Permainan</string>
-    <string name="menu_end_game">Akhiri Permainan</string>
+    <string name="menu_save_game">Simpan Game</string>
+    <string name="menu_end_game">Akhiri Game</string>
     <string name="new_game">Game Baru</string>
     <string name="restore_game">Lanjutkan Game</string>
     <string name="prefs">Pengaturan</string>
@@ -96,6 +96,7 @@
     <string name="whats_new_title">Apa Yang Baru</string>
     <string name="whats_new_continue">Lanjutkan</string>
     <string name="about_lexica">Tentang Lexica</string>
+    <string name="game_mode">Mode Game</string>
     <string name="help">Bantuan</string>
     <string name="lexica_what_is_it">Lexica adalah game menyusun kata yang tersedia di platform Android. Pemain diberi waktu untuk menemukan kata sebanyak mungkin dalam kotak huruf acak.</string>
     <string name="help_how_to_play">Cara bermain</string>
