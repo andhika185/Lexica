@@ -79,7 +79,7 @@
 			fancy:fb_fontIconResource="&#xf0a8;"
 			fancy:fb_fontIconSize="24sp"
 			fancy:fb_iconPosition="top"
-			fancy:fb_text="Back"
+			fancy:fb_text="@string/back"
 			fancy:fb_textColor="?attr/home__secondary_button_text_colour"
 			fancy:fb_textSize="18sp">
 
