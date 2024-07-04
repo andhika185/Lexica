@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="New game mode"
+        app:title="@string/new_game_mode"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
@@ -167,7 +167,7 @@
         fancy:fb_fontIconResource="&#xf160;"
         fancy:fb_textColor="?attr/list__selectable_item_text_colour"
         fancy:fb_defaultColor="@android:color/transparent"
-        fancy:fb_text="Min word length"
+        fancy:fb_text="@string/min_word_length"
         fancy:fb_iconPosition="top" />
 
     <RadioGroup

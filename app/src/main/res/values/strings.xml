@@ -33,7 +33,7 @@
     <string name="pref_scoreType">Scoring Type</string>
     <string name="word_length">Word Length</string>
     <string name="letter_points">Letter Points</string>
-    <string name="pref_hintMode">Hint mode</string>
+    <string name="pref_hintMode">Hint</string>
     <string name="pref_hintMode_summary">Shows the number of words each letter can be used in</string>
     <string name="tile_count">Number of words</string>
     <string name="hint_colour">Tile colour</string>
@@ -134,4 +134,6 @@
     <string name="help_how_to_play">How to play</string>
     <string name="help_how_to_play_desc">To play Lexica, start a new game by tapping \"New Game\" from the main menu. On the game screen, connect adjacent letters in the grid to form words, with connections possible horizontally, vertically, or diagonally. Each word must be at least three letters long and is automatically submitted upon formation, with points awarded based on the word\'s length and complexity. The game keeps track of your score and the number of words found, and your performance is summarized at the end of the game, showing both found and missed words along with their point values.</string>
     <string name="back">Back</string>
+    <string name="new_game_mode">New Game Mode</string>
+    <string name="min_word_length">Min Word Length</string>
 </resources>

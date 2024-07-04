@@ -35,7 +35,7 @@
     <string name="pref_scoreType">Jenis Penilaian</string>
     <string name="word_length">Panjang Kata</string>
     <string name="letter_points">Poin Huruf</string>
-    <string name="pref_hintMode">Mode bantuan</string>
+    <string name="pref_hintMode">Bantuan</string>
     <string name="pref_hintMode_summary">Menampilkan jumlah kata yang dapat digunakan setiap huruf</string>
     <string name="tile_count">Jumlah kata</string>
     <string name="hint_colour">Warna ubin</string>
@@ -102,4 +102,6 @@
     <string name="help_how_to_play">Cara bermain</string>
     <string name="help_how_to_play_desc">Untuk memainkan Lexica, mulai game baru dengan mengetuk \"Game Baru\" dari menu utama. Pada layar game, hubungkan huruf yang berdekatan dalam kotak untuk membentuk kata, dengan koneksi bisa secara horizontal, vertikal, atau diagonal. Setiap kata harus terdiri dari minimal tiga huruf dan secara otomatis dikirimkan setelah terbentuk, dengan poin yang diberikan berdasarkan panjang dan kerumitan kata. Game ini melacak skor dan jumlah kata yang ditemukan, dan performa pemain dirangkum di akhir game, yang menampilkan kata-kata yang ditemukan dan yang terlewatkan beserta nilai poinnya.</string>
     <string name="back">Kembali</string>
+    <string name="new_game_mode">Mode Game Baru</string>
+    <string name="min_word_length">Panjang Kata</string>
 </resources>
