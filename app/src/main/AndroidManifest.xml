@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.serwylo.lexica">
+          package="com.andhika185.lexica">
 
     <application
 		android:icon="@mipmap/ic_launcher"
@@ -10,7 +10,7 @@
 		android:supportsRtl="true"
 		android:allowBackup="true">
 
-        <activity android:name=".MainMenuActivity"
+        <activity android:name="com.andhika185.lexica.MainMenuActivity"
 			android:screenOrientation="portrait"
 			android:configChanges="orientation|keyboardHidden">
             <intent-filter>
@@ -19,46 +19,46 @@
             </intent-filter>
         </activity>
 
-		<activity android:name=".activities.HighScoresActivity"
+		<activity android:name="com.andhika185.lexica.activities.HighScoresActivity"
 			android:screenOrientation="portrait"
 			android:configChanges="orientation|keyboardHidden"
-			android:parentActivityName=".MainMenuActivity">
-			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainMenuActivity" />
+			android:parentActivityName="com.andhika185.lexica.MainMenuActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.andhika185.lexica.MainMenuActivity" />
 		</activity>
 
-		<activity android:name=".activities.FoundWordsActivity"
+		<activity android:name="com.andhika185.lexica.activities.FoundWordsActivity"
 			android:screenOrientation="portrait"
 			android:configChanges="orientation|keyboardHidden"
-			android:parentActivityName=".activities.HighScoresActivity">
-			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".activities.HighScoresActivity" />
+			android:parentActivityName="com.andhika185.lexica.activities.HighScoresActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.andhika185.lexica.activities.HighScoresActivity" />
 		</activity>
 
-		<activity android:name=".ChooseGameModeActivity"
+		<activity android:name="com.andhika185.lexica.ChooseGameModeActivity"
 			android:screenOrientation="portrait"
 			android:configChanges="orientation|keyboardHidden"
-			android:parentActivityName=".MainMenuActivity">
-			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainMenuActivity" />
+			android:parentActivityName="com.andhika185.lexica.MainMenuActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.andhika185.lexica.MainMenuActivity" />
 		</activity>
 
-		<activity android:name=".NewGameModeActivity"
+		<activity android:name="com.andhika185.lexica.NewGameModeActivity"
 			android:screenOrientation="portrait"
 			android:configChanges="orientation|keyboardHidden"
-			android:parentActivityName=".ChooseGameModeActivity">
-			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".ChooseGameModeActivity" />
+			android:parentActivityName="com.andhika185.lexica.ChooseGameModeActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.andhika185.lexica.ChooseGameModeActivity" />
 		</activity>
 
-		<activity android:name=".ChooseLexiconActivity"
+		<activity android:name="com.andhika185.lexica.ChooseLexiconActivity"
 			android:screenOrientation="portrait"
 			android:configChanges="orientation|keyboardHidden"
-			android:parentActivityName=".MainMenuActivity">
-			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainMenuActivity" />
+			android:parentActivityName="com.andhika185.lexica.MainMenuActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.andhika185.lexica.MainMenuActivity" />
 		</activity>
 
-		<activity android:name=".GameActivity"
+		<activity android:name="com.andhika185.lexica.GameActivity"
 			android:screenOrientation="portrait"
 			android:configChanges="orientation|keyboardHidden"
-			android:parentActivityName=".MainMenuActivity">
-			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainMenuActivity" />
+			android:parentActivityName="com.andhika185.lexica.MainMenuActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.andhika185.lexica.MainMenuActivity" />
 			<intent-filter>
 				<action android:name="com.serwylo.lexica.action.NEW_GAME" />
 				<category android:name="android.intent.category.DEFAULT" />
@@ -69,7 +69,7 @@
 			</intent-filter>
         </activity>
 
-        <activity android:name=".activities.score.ScoreActivity"
+        <activity android:name="com.andhika185.lexica.activities.score.ScoreActivity"
 			android:screenOrientation="portrait"
 			android:configChanges="orientation|keyboardHidden">
 			<intent-filter>
@@ -78,8 +78,8 @@
 			</intent-filter>
         </activity>
 
-        <activity android:name=".SettingsActivity" android:exported="false" android:parentActivityName=".MainMenuActivity">
-			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainMenuActivity" />
+        <activity android:name="com.andhika185.lexica.SettingsActivity" android:exported="false" android:parentActivityName="com.andhika185.lexica.MainMenuActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.andhika185.lexica.MainMenuActivity" />
 			<intent-filter>
 				<action android:name="com.serwylo.lexica.action.CONFIGURE" />
 				<category android:name="android.intent.category.DEFAULT" />
@@ -87,8 +87,8 @@
 			</intent-filter>
         </activity>
 
-		<activity android:name=".HelpActivity" android:exported="false" android:parentActivityName=".MainMenuActivity">
-		<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainMenuActivity" />
+		<activity android:name="com.andhika185.lexica.HelpActivity" android:exported="false" android:parentActivityName="com.andhika185.lexica.MainMenuActivity">
+		<meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.andhika185.lexica.MainMenuActivity" />
 		<intent-filter>
 			<action android:name="com.serwylo.lexica.action.HELP" />
 			<category android:name="android.intent.category.DEFAULT" />

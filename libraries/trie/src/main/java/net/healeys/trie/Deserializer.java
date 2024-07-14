@@ -1,6 +1,6 @@
 package net.healeys.trie;
 
-import com.serwylo.lexica.lang.Language;
+import com.andhika185.lexica.lang.Language;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -13,6 +13,6 @@ dependencies {
 
 shadowJar {
     manifest {
-        attributes "Main-Class": "com.serwylo.lexica.trie.TrieBuilderApp"
+        attributes "Main-Class": "com.andhika185.lexica.trie.TrieBuilderApp"
     }
 }

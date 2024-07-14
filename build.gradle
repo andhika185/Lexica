@@ -68,7 +68,7 @@ def languages = [
 languages.each { lang ->
 
     def langTask = task "buildDictionary_${lang}"(dependsOn: buildTrieBuilder, type: JavaExec) {
-        main = 'com.serwylo.lexica.trie.TrieBuilderApp'
+        main = 'com.andhika185.lexica.trie.TrieBuilderApp'
         classpath 'libraries/trie-builder/build/libs/trie-builder-all.jar'
         args = [
                 lang,
@@ -86,7 +86,7 @@ languages.each { lang ->
     buildDictionaries.dependsOn << langTask
 
     task "analyseLanguage_${lang}"(dependsOn: [buildLanguageAnalysis, langTask], type: JavaExec) {
-        main = 'com.serwylo.lexica.language.LanguageAnalysisApp'
+        main = 'com.andhika185.lexica.language.LanguageAnalysisApp'
         classpath 'libraries/language-analysis/build/libs/language-analysis-all.jar'
         args = [
                 lang,
