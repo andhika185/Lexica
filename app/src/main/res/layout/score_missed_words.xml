@@ -17,7 +17,7 @@
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintEnd_toEndOf="parent">
 
-		<com.andhika185.lexica.view.BoardView
+		<com.serwylo.lexica.view.BoardView
 			android:id="@+id/missed_board"
 			android:layout_width="0dp"
 			android:layout_height="0dp"

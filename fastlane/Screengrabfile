@@ -1,7 +1,7 @@
 # remove the leading '#' to uncomment lines
 
-app_package_name('andhika185.lexica')
-use_tests_in_classes(['andhika185.lexica.FastlaneScreengrabTest'])
+app_package_name('com.serwylo.lexica')
+use_tests_in_classes(['com.serwylo.lexica.FastlaneScreengrabTest'])
 
 use_adb_root(true)
 

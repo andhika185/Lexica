@@ -7,7 +7,7 @@ android {
     buildToolsVersion '29.0.3'
 
     defaultConfig {
-        applicationId "com.andhika185.lexica"
+        applicationId "com.serwylo.lexica"
         minSdkVersion 18
         targetSdkVersion 30
         versionCode 30008

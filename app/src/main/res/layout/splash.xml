@@ -81,7 +81,7 @@
 		app:layout_constraintTop_toBottomOf="@id/high_score_label"
 		tools:text="35" />
 
-	<com.andhika185.lexica.view.LexicaLogo
+	<com.serwylo.lexica.view.LexicaLogo
 		android:id="@+id/lexicaLogo"
 		android:layout_width="0dp"
 		android:layout_height="0dp"

@@ -80,7 +80,7 @@
 			android:layout_weight="0.5"
 			android:gravity="center"
 		>
-			<com.andhika185.lexica.view.BoardView
+			<com.serwylo.lexica.view.BoardView
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:layout_gravity="center"

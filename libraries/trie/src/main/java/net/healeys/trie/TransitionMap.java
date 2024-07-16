@@ -28,7 +28,7 @@ public interface TransitionMap {
     /**
      * Provides the value stored at a particular position.
      * <p>
-     * May be more than one letter (see {@link com.andhika185.lexica.lang.Language#applyMandatorySuffix(String)}).
+     * May be more than one letter (see {@link com.serwylo.lexica.lang.Language#applyMandatorySuffix(String)}).
      *
      * @param    position    the id of a position
      * @return the value stored at that position
